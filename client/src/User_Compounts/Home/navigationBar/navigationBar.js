@@ -16,7 +16,6 @@ const NavigationBar = () => {
     { name: "Certificates", path: "/certificates" },
     { name: "Projects", path: "/projects" },
     { name: "Live Websites", path: "/websites" },
-    { name: "My Resume", path: "/resume" },
     { name: "Social Media", path: "/social" },
     { name: "Contact Me", path: "/contact" },
   ];
