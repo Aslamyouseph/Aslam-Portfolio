@@ -1,6 +1,7 @@
 import React from "react";
 import "./homeBody.css";
 import image1 from "../../UserImages/aslam.jpg";
+import { Link } from "react-router-dom";
 
 function HomeBody() {
   return (
@@ -15,11 +16,12 @@ function HomeBody() {
             </div>
             <div className="text-four">From Kerala</div>
             <div className="home-buttons">
-              <a href="#contact" className="btn hire-btn">
+              <Link to="/contact" className="btn hire-btn">
                 Hire Me
-              </a>
+              </Link>
+              {/* Download a file  */}
               <a
-                href="/Aslam_Youseph_Resume.pdf"
+                href="/Resume/ASLAMYOUSEPH-Resume.pdf"
                 download
                 className="btn resume-btn"
               >
